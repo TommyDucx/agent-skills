@@ -1,0 +1,4 @@
+interface:
+  display_name: "易错点总结"
+  short_description: "从课程资料生成图文并茂的考试易错点与重点复习资料稿"
+  default_prompt: "Use $easy-mistake-review to turn my course materials into an illustrated mistake-focused Markdown and PDF review sheet."
