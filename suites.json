@@ -1,0 +1,153 @@
+{
+  "_说明": "按技能「套件」归类的规则。把技能名加进某个套件的 skills 数组即可调整分类；未列入任何套件的会落到 99-inbox。这里的名字是技能目录名。",
+  "suites": [
+    {
+      "id": "01-cloudflare-platform",
+      "title": "Cloudflare 平台",
+      "desc": "Cloudflare 官方技能包：产品选型、Workers/Durable Objects/Sandbox、Wrangler、Turnstile、Zero Trust、Email、性能审计等。",
+      "skills": [
+        "cloudflare",
+        "cloudflare-one",
+        "cloudflare-one-migrations",
+        "cloudflare-email-service",
+        "agents-sdk",
+        "durable-objects",
+        "workers-best-practices",
+        "wrangler",
+        "nextjs-on-cloudflare",
+        "sandbox-stable",
+        "sandbox-next",
+        "sandbox-migrate-to-next",
+        "turnstile-spin",
+        "web-perf"
+      ]
+    },
+    {
+      "id": "02-superpowers-workflow",
+      "title": "Superpowers 开发流程",
+      "desc": "obra/superpowers 一整套软件开发方法论：从头脑风暴、写计划、执行计划、TDD、系统化调试，到代码评审与分支收尾。",
+      "skills": [
+        "using-superpowers",
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "subagent-driven-development",
+        "dispatching-parallel-agents",
+        "test-driven-development",
+        "systematic-debugging",
+        "verification-before-completion",
+        "requesting-code-review",
+        "receiving-code-review",
+        "using-git-worktrees",
+        "finishing-a-development-branch"
+      ]
+    },
+    {
+      "id": "03-baoyu-content",
+      "title": "宝玉内容创作",
+      "desc": "宝玉（JimLiu）的一套内容生产流水线：抓取网页/字幕 → 翻译/排版 → 配图/信息图/图表/封面 → 转 HTML → 发布到公众号、微博、X。",
+      "skills": [
+        "baoyu-url-to-markdown",
+        "baoyu-youtube-transcript",
+        "baoyu-translate",
+        "baoyu-format-markdown",
+        "baoyu-markdown-to-html",
+        "baoyu-article-illustrator",
+        "baoyu-cover-image",
+        "baoyu-infographic",
+        "baoyu-diagram",
+        "baoyu-compress-image",
+        "baoyu-post-to-wechat",
+        "baoyu-post-to-weibo",
+        "baoyu-post-to-x"
+      ]
+    },
+    {
+      "id": "04-frontend-design",
+      "title": "前端设计",
+      "desc": "UI 设计方向、版式与视觉质感，含动效引擎（缓动/弹簧/可中断性/性能）与多变体探索。",
+      "skills": [
+        "frontend-design",
+        "frontend-design-skillhub",
+        "frontend-design-v2",
+        "tri-frontend-design"
+      ]
+    },
+    {
+      "id": "05-skill-authoring",
+      "title": "技能创作与发现",
+      "desc": "元技能：写 skill、装 skill、找 skill、做插件。",
+      "skills": [
+        "writing-skills",
+        "find-skills",
+        "find-skill",
+        "skill-creator",
+        "skill-installer",
+        "plugin-creator"
+      ]
+    },
+    {
+      "id": "06-document-image",
+      "title": "文档与图片处理",
+      "desc": "PDF 读写/表单/合并拆分，以及图片与扫描版 PDF 的文字提取。",
+      "skills": [
+        "pdf",
+        "pdf-image-text-extractor__skillhub"
+      ]
+    },
+    {
+      "id": "07-browser-automation",
+      "title": "浏览器自动化",
+      "desc": "控制真实浏览器：打开页面、填表、点击、截图、抓取、登录态复用与端到端测试。",
+      "skills": [
+        "ego-browser",
+        "playwright"
+      ]
+    },
+    {
+      "id": "08-music-media",
+      "title": "音乐与媒体",
+      "desc": "音乐批量下载、元数据/歌词/封面内嵌等媒体流水线。",
+      "skills": [
+        "music-processing-skills"
+      ]
+    },
+    {
+      "id": "09-office-collab",
+      "title": "办公与协作",
+      "desc": "邮件、会议、知识库等日常办公协作能力。",
+      "skills": [
+        "agently-mail",
+        "tencent-meeting-skill",
+        "ima-skills"
+      ]
+    },
+    {
+      "id": "10-codex-system",
+      "title": "Codex 系统",
+      "desc": "OpenAI Codex 内置的系统级技能：图像生成、官方文档查询、评审代理。",
+      "skills": [
+        "imagegen",
+        "openai-docs",
+        "review-agent"
+      ]
+    },
+    {
+      "id": "11-news-study",
+      "title": "资讯与学习",
+      "desc": "AI 资讯日报，以及基于课程资料的易错点整理与考前复习材料生成。",
+      "skills": [
+        "aihot",
+        "easy-mistake-review"
+      ]
+    },
+    {
+      "id": "12-personal-projects",
+      "title": "个人项目",
+      "desc": "为个人项目定制的技能（如 Star-Chess 棋力流水线）。",
+      "skills": [
+        "chess-policy-pipeline"
+      ]
+    }
+  ]
+}
